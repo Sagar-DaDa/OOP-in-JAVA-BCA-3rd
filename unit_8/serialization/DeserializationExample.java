@@ -7,7 +7,7 @@ public class DeserializationExample {
         Employee employee = null;
 
         try {
-            FileInputStream fileIn = new FileInputStream("unit_8/serialization/employee.ser");
+            FileInputStream fileIn = new FileInputStream("unit_8/serialization/sumit.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             employee = (Employee) in.readObject();  // Deserializing the object
             in.close();

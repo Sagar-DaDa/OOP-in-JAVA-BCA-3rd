@@ -11,7 +11,7 @@ public class SerializationExample {
         employee.number = 101;
 
         try {
-            FileOutputStream fileOut = new FileOutputStream("unit_8/serialization/employee.ser");
+            FileOutputStream fileOut = new FileOutputStream("unit_8/serialization/sumit.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(employee);  // Serializing the object
             out.close();
