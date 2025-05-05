@@ -15,7 +15,6 @@ public class TreeMapExample {
         map.put("Srinkhala", 20);
 
         // Iterating over Map using for each loop
-        System.out.println("// Output");
         for (Map.Entry<String, Integer> e : map.entrySet())
             // Printing key-value pairs
             System.out.println(e.getKey() + " : " + e.getValue());
